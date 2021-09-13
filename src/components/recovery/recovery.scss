@@ -1,0 +1,83 @@
+.recovery-wrapper {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 18vh;
+
+  & > h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+}
+.recovery {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+
+    &-text {
+      font-size: 18px;
+      margin-bottom: 6vh;
+      color: rgb(125,152,161);
+    }
+
+    &-email{
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 1vh;
+    }
+
+    &-input {
+      width: 320px;
+      height: 25px;
+      background-color: rgb(238,241,239);
+      outline: none;
+      border: none;
+    }
+
+    &-email-error {
+      position: fixed;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 30px;
+      background-color: rgb(252,243,243);
+      margin: -29px 0px;
+      color: rgb(158,19,19);
+      font-size: 17px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    &-check-email {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      width: 322px;
+      height: 50px;
+      background-color: rgb(252,243,243);
+      margin-top: 15px;
+      color: rgb(158,19,19);
+      font-size: 17px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    &-btn {
+      margin-top: 8vh;
+      display: flex;
+      justify-content: center;
+
+      & > button {
+        width: 200px;
+        height: 40px;
+        font-size: 17px;
+        color: white;
+        background-color: rgb(125,152,161);
+        cursor: pointer;
+      }
+    }
+  }
+
+}

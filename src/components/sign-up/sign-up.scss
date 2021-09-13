@@ -1,0 +1,140 @@
+.Sign-up {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+
+  &-form {
+
+    &-email-input {
+      width: 400px;
+      background-color:rgb(238,241,239) ;
+      height: 30px;
+      outline: none;
+      border: none;
+       margin-bottom: 40px;
+    }
+
+    &-email-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-email-error {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 30px;
+      background-color: rgb(252,243,243);
+      margin-bottom: 5px;
+      color: rgb(158,19,19);
+      font-size: 17px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    &-password-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-password-error {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      width: 264px;
+      height: 30px;
+      background-color: rgb(252,243,243);
+      margin-bottom: 5px;
+      color: rgb(158,19,19);
+      font-size: 15px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    &-password-input {
+      width: 400px;
+      background-color: rgb(238,241,239);
+      height: 30px;
+      outline: none;
+      border: none;
+      margin-bottom: 40px;
+    }
+
+    &-repeat-password-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-repeat-password-error {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 30px;
+      background-color: rgb(252,243,243);
+      margin-bottom: 5px;
+      color: rgb(158,19,19);
+      font-size: 17px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    &-repeat-password-input {
+      width: 400px;
+      background-color: rgb(238,241,239);
+      height: 30px;
+      outline: none;
+      border: none;
+    }
+
+    &-btn {
+      display: flex;
+      justify-content: center;
+
+      & > .btnSign_up {
+        background-color: rgb(125,152,161);
+        height: 40px;
+        width: 200px;
+        margin-top: 40px;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}
+
+.Sign-up-h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+}
+
+.text {
+  margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(94,101,114);
+}
+
+.error-mesagges {
+  display: none;
+  position: absolute;
+  width: 230px;
+  height: 50px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  top: 84vh;
+  margin-left: -112px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+}
+
+.back > a > img {
+  height: 35px;
+  margin: 15px;
+}

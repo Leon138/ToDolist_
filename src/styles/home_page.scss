@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+}
+
+.content {
+
+  &-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3vh;
+    font-family: 'Josefin Sans', sans-serif;
+
+    &-login {
+      margin-right: 85px;
+      padding: 0 15px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eaf2f7;
+      border-radius: 12px;
+      border: 1px solid;
+    
+      & > span {
+        font-size: 20px;
+        font-weight: bolder;
+        color: #9e9d9d;
+       }
+   
+      &-sign-in {
+        > a {
+          text-decoration: none;
+          color: #9e9d9d;
+          font-size: 18px;
+        }
+      }
+
+      &-sign-up {
+        > a {
+          text-decoration: none;
+          color: #9e9d9d;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  &-text-image {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
+
+    &-wrapper {
+      font-family: 'Josefin Sans', sans-serif;
+
+      &-todolist {
+        font-size: 60px;
+        margin-bottom: 20px;
+      }
+
+      &-simple {
+        font-size: 50px;
+        margin-bottom: 30vh;
+      }
+
+      &-just {
+        font-size: 60px;
+      }
+    }
+  }
+}

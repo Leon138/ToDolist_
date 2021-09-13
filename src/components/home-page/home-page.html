@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>Home-page</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-text">ToDoList</div>
+      <div class="header-user">
+        <div class="header-user-name"></div>
+        <img src="/image/round_account_circle_white_36dp.png" class="user" alt="">
+      </div>
+    </div>  
+    <div class="user-info">
+      <div class="user-info-line">
+        <button id="logoutBtn" class="user-info-logout">Logout</button>
+      </div>
+    </div>
+    <div class="search">
+      <img src="/image/search.png" alt="">
+      <input type="text" class="search-input"  required autocomplete="off">
+    </div>
+    <div class="wrapper-content">
+      <div class="warning">
+        <div class="warning-text">
+          <span>Are you sure</span>
+          <span>you want to delete this list?</span>
+        </div>
+          <div class="warning-button">
+            <button class="warning-button-no">No</button>
+            <button class="warning-button-yes">Yes</button>
+          </div>
+      </div> 
+      <div class="wrapper-content-block-add">
+        <div class="wrapper-content-block-add-content">
+          <img class="wrapper-content-block-add-content-img" src="/image/add.png" alt="">
+          <span>New</span>
+        </div>
+        <div class="wrapper-content-block-add-name">
+          <input type="text" placeholder="Name" class="wrapper-content-block-add-name-input">
+          <button class="wrapper-content-block-add-name-btn-create">Create</button>
+        </div> 
+      </div>
+    </div>  
+  </body>
+</html>

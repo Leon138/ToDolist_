@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Sign-up</title>
+  </head>
+  <body>
+    <div class="back">
+      <a href="./sign-in.html">
+        <img src="../../../image/back.png" alt="">
+      </a>
+    </div>
+    <h1 class="Sign-up-h1">ToDoList</h1>
+    <div class="Sign-up">
+      <form class="Sign-up-form">
+        <div class="Sign-up-form-email">
+          <div class="Sign-up-form-email-wrapper">
+            <div class="text">E—Mail</div>
+            <div class="Sign-up-form-email-error">Incorrect e-mail template</div>
+          </div>
+          <input type="email" class="Sign-up-form-email-input" id="email" required autocomplete="off">
+        </div>
+        <div class="Sign-up-form-password">
+          <div class="Sign-up-form-password-wrapper">
+            <div class="text">Password</div>
+            <div class="Sign-up-form-password-error">Password must consists of 6 numbers</div>
+          </div>
+          <input type="password" title="password must consists of 6 numbers" id="password_1" placeholder="password must consists of 6 numbers" class="Sign-up-form-password-input" maxlength="6" required autocomplete="off">
+        </div>
+        <div class="Sign-up-form-repeat-password">
+          <div class="Sign-up-form-repeat-password-wrapper">
+            <div class="text">Repeat Password</div>
+            <div class="Sign-up-form-repeat-password-error"><strong>Passwords are not equal</strong></div>
+          </div>
+          <input type="password" class="Sign-up-form-repeat-password-input" id="password_2" maxlength="6" required autocomplete="off">
+        </div>
+        <div class="Sign-up-form-btn">
+          <button type="submit" class="btnSign_up">Sign up</button>
+        </div>
+      </form>
+    </div>
+    <div class="error-mesagges"></div>
+  </body>
+</html>

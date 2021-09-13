@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-text">ToDoList</div>
+      <div class="header-user">
+        <div class="header-user-name"></div>
+        <img src="/image/round_account_circle_white_36dp.png" class="user" alt="">
+      </div>
+    </div>  
+    <div class="user-info">
+      <div class="user-info-line">
+        <button id="logoutBtn" class="user-info-logout">Logout</button>
+      </div>
+    </div>
+    <div class="todolist">
+      <div class="todolist-header">
+        <a href="./home-page.html">
+          <img class="todolist-header-img" src="../../../image/back.png" alt="">
+        </a>
+        <img class="todolist-header-img-star" src="/image/star.png" alt="">
+        <img class="todolist-header-img-star-black" src="/image/star_black_24dp.png" alt="">
+        <div class="todolist-header-block-name"></div>
+        <img class="todolist-header-img-burger-menu" src="/image/burger-menu.png" alt="">  
+        <div class="todolist-header-img-burger-menu-sort">
+          <div class="todolist-header-img-burger-menu-sort-name">Sort tasks</div>
+          <div class="todolist-header-img-burger-menu-sort-az">by name A—Z</div>
+          <div class="todolist-header-img-burger-menu-sort-za">by name Z—A</div>
+          <div class="todolist-header-img-burger-menu-sort-nf">newest first</div>
+          <div class="todolist-header-img-burger-menu-sort-of">oldest first</div>
+          <div class="todolist-header-img-burger-menu-sort-cf">completed first</div>
+          <div class="todolist-header-img-burger-menu-sort-uf">unfulfilled first</div>
+        </div> 
+      </div>
+      <div class="todolist-wrapper">
+        <div class="todolist-add">
+          <div class="todolist-add-circle"></div>
+          <img class="todolist-add-img-save" src="/image/save.png" alt="">
+          <button type="button" class="todolist-add-img">
+            <img src="/image/add.png" alt="">
+          </button>
+        </div>
+      </div>  
+    </div> 
+    <div class="footer">
+      <div class="footer-form">
+        <label class="footer-form-label">
+          <input id="radio-1" type="radio" class="footer-form-radio" name="radio" value="1">
+          <span class="footer-form-span-1"></span>
+        </label>
+        <label class="footer-form-label">
+          <input id="radio-1" type="radio" class="footer-form-radio" name="radio" value="1">
+          <span class="footer-form-span-2"></span>
+        </label>
+        <label class="footer-form-label">
+          <input id="radio-1" type="radio" class="footer-form-radio" name="radio" value="1">
+          <span class="footer-form-span-3"></span>
+        </label>
+        <label class="footer-form-label">
+          <input id="radio-1" type="radio" class="footer-form-radio" name="radio" value="1">
+          <span class="footer-form-span-4"></span>
+        </label>  
+        <label class="footer-form-label">
+          <input id="radio-1" type="radio" class="footer-form-radio" name="radio" value="1">
+          <span class="footer-form-span-5"></span>
+        </label>  
+      </div>
+    </div> 
+  </body>
+</html>
